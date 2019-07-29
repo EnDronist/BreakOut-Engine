@@ -40,7 +40,7 @@ void TextList::Add(Label *label) {
 	labels_pos.push_back(label->GetHitbox());
 }
 void TextList::Delete(size_t i) {
-	if (labels.size() < i) { delete labels[i]; labels.erase(labels.begin() + i); }
+	if (i >= 0 && i < labels.size()) { delete labels[i]; labels.erase(labels.begin() + i); }
 }
 HitboxD TextList::GetHitbox() const {
 	return pos;
