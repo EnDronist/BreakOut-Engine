@@ -40,12 +40,12 @@ void Game::Go() {
 }
 void Game::UpdateModel() {
 	//Objects update
-	//Here it is necessary to draw objects with .Update() function.
+	//Here it is necessary to update objects with Update() function.
 }
 void Game::ComposeFrame() {
 	for (Polygon2 *polygon : Polygon2::GetSet()) polygon->Draw(gfx, Color{ 255, 127, 255 });
 	for (Line2 *line : Line2::GetSet()) line->Draw(gfx, Color{ 255, 127, 255 });
 	for (Point2 *point : Point2::GetSet()) point->Draw(gfx, Color{ 255, 127, 255 });
 	//Objects draw
-	//Here it is necessary to draw objects with .Draw() function.
+	//Here it is necessary to draw objects with Draw() function.
 }
