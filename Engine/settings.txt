@@ -1,0 +1,7 @@
+Resolution:
+1600
+900
+Draw players' rectangles:
+false
+Draw collision lines:
+false

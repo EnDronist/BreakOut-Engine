@@ -1,0 +1,11 @@
+v0.4.6.7:
+Created "Test Room" for engine demonstration
+Update window can now be scrolled
+Improved hitboxes:
+ Added hitbox clusters
+ Added ellipsoid hitboxes
+!next
+v0.4.6.3:
+Added last update description in main menu
+Added "DEBUG" label in debug mode
+Added visual effect for buff "BuffExpand"

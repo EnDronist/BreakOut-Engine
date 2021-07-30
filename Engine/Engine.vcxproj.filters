@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8b6c92a8-f65d-451e-80e3-d65773602b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{ffb5ef4c-462e-435f-8818-aca8bae5065e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{d5334249-bdb0-42cf-824c-7d6a19bf77f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{ecd3e1bb-2f42-45b4-8286-3b74522fac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{53a127e3-1d5b-4edb-8282-dccc957dd806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{f80f5614-d870-4187-97e8-5afc4eac1220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{099dd200-1d96-4b94-86ce-044c98368ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{919cfa40-77e6-4644-ab6c-ee9ca2696fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{3da2e93d-c065-471d-a916-96a7ccab0657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{702851b2-91c7-43b1-8272-bac9d2d8efe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{81386264-d8e5-46e9-93e3-127a29f0b9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{a523ef09-c02d-4b66-a58a-5b6dbfe8c9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{28c467a1-e1e8-4c38-bde1-828246095b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Buffs">
+      <UniqueIdentifier>{8490f08d-a721-4631-88ed-6f963b408fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Buffs">
+      <UniqueIdentifier>{c0737553-0361-4cd8-8664-abfd1eb94069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStages">
+      <UniqueIdentifier>{eb6fea29-23a4-41c0-ab95-11d8514227b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStages\Stages">
+      <UniqueIdentifier>{fd7d7725-6dd7-41dd-8f2b-bc87948dce99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStages">
+      <UniqueIdentifier>{6c92d9e8-5079-4d10-b09d-b175dcc98e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStages\Stages">
+      <UniqueIdentifier>{17e9b293-5e9c-486f-ab03-3b22816462b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStages\Stages\GameProcess">
+      <UniqueIdentifier>{56b3c416-a6aa-4b38-845b-7ae75e67401b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStages\Stages\GameProcess">
+      <UniqueIdentifier>{231401c7-bb45-4ff8-80ef-eef537d765fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles">
+      <UniqueIdentifier>{2de3a212-ec40-489c-96ef-55d0ce65bd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureFiles">
+      <UniqueIdentifier>{4fd117cc-19d4-4947-8046-bbc2ef87f8ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEffect.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliException.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliWin.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DXErr.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStageList.h">
+      <Filter>Header Files\GameStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSpeedBoost.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.h">
+      <Filter>Header Files\GameObjects\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffExpand.h">
+      <Filter>Header Files\GameObjects\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage.h">
+      <Filter>Header Files\GameStages</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRoom.h">
+      <Filter>Header Files\GameStages\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\GameStages\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="NewHighScore.h">
+      <Filter>Header Files\GameStages\Stages\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>Header Files\GameStages\Stages\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TextList.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="DXErr.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSpeedBoost.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.cpp">
+      <Filter>Source Files\GameObjects\Buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffExpand.cpp">
+      <Filter>Source Files\GameObjects\Buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRoom.cpp">
+      <Filter>Source Files\GameStages\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\GameStages\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="NewHighScore.cpp">
+      <Filter>Source Files\GameStages\Stages\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>Source Files\GameStages\Stages\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TextList.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FramebufferPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="FramebufferVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Chili.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\Release\font-16x28.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\game_title.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\live.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\player.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\ball.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\big_ball.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+    <Image Include="..\x64\Release\brick.bmp">
+      <Filter>Source Files\TextureFiles</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\x64\Release\ip_address.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="..\x64\Release\settings.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="..\x64\Release\updates_description.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
